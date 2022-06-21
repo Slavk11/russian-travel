@@ -1,0 +1,38 @@
+.cover__overlay {
+    background-image: url("../../../sprint-3-images/cover-trains.jpg") ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    background-size: cover;
+    justify-self: center;
+    background-position: center;
+    z-index: 1;
+    max-width: 1184px;
+    min-height: 740px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+  }
+  .cover__overlay::before {
+    content: '';
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-color: #2A2C2F;
+    opacity: .3;
+    transition: .335s ease-in-out;
+  }
+  .cover__overlay:hover::before  {
+    opacity: .8;
+  }
+  @media (max-width: 1024px) {
+    .cover__overlay {
+      min-height: 63vw;
+      min-width: 100%;
+      margin: auto;
+  }
+  }

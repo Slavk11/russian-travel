@@ -1,0 +1,22 @@
+.header__lang-link {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 18px 0 0;
+    
+  }
+  .header__lang-link:nth-last-child(1) {
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .header__lang-link:hover {
+    transition: .2s ease-in-out;
+    opacity: .5;
+    text-decoration: underline;
+  }
+  .header__lang-link::before{
+    opacity: .5;
+    cursor: pointer;
+  }

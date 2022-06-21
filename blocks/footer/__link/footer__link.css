@@ -1,0 +1,29 @@
+.footer__link {
+    width: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0 18px 0 0;
+    text-decoration: none;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  .footer__link:hover {
+    transition: .2s ease-in-out;
+    opacity: .5;
+  }
+  .footer__link::before{
+    opacity: .5;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 348px) {
+    .footer__link {
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 32px;
+    }
+  }

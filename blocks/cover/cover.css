@@ -1,0 +1,15 @@
+.cover {
+    max-width: 1184px;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+  
+  }
+  @media (max-width: 1279px) {
+    .cover {
+      min-width: 100%;
+      margin: 0 auto;
+      text-decoration: none;
+    }
+    }
+  
