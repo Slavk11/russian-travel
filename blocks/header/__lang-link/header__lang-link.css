@@ -4,11 +4,11 @@
     font-size: 18px;
     line-height: 28px;
     margin: 0 18px 0 0;
+    text-decoration: none;
     
   }
   .header__lang-link:nth-last-child(1) {
     margin: 0;
-    text-decoration: none;
   }
   
   .header__lang-link:hover {
