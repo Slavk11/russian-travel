@@ -68,7 +68,6 @@
 .header__lang {
   margin: 0;
   
-  
 }
 .header__lang-link {
   color: #fff;
@@ -92,12 +91,12 @@
   opacity: .5;
   cursor: pointer;
 }
-.logo_place_header {
+.header__logo {
   width: 176px;
   height: 52px;
 }
 @media (max-width: 767px) {
-  .logo_place_header{
+  .header__logo{
     width: 142px;
     height: 42px;
   }
@@ -306,7 +305,7 @@
   font-weight: 400;
   color: #ffffff;
 }
-.info__list-item:last-child {
+.intro__list-item:last-child {
   margin: 0 0 0 0;
 }
 
