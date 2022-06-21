@@ -1,5 +1,5 @@
 .cover__overlay {
-    background-image: url("../../../sprint-3-images/cover-trains.jpg") ;
+    background-image: url("../../../sprint-3-images/cover-trains.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
