@@ -1,7 +1,8 @@
 .place__website {
     align-self: end;
-    margin-bottom: 48px;
+    margin-bottom: 8px;
   }
+  
   @media (max-width: 768px) {
     .place__website {
       margin: 0;

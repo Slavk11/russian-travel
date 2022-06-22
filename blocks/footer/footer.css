@@ -3,6 +3,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 92px auto 24px;
+    max-width: 1184px;
   }
   @media (max-width: 1024px) {
     .footer {

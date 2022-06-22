@@ -12,6 +12,6 @@
   @media (max-width: 768px) {
     .place__image {
       margin: 0 auto;
-      max-width: 340px;
+      
     }
   }
