@@ -20,5 +20,6 @@
   @media (max-width: 425px) {
     .footer {
       max-width: calc(100% - 32px);
+      margin-top: 64px;
     }
   }
