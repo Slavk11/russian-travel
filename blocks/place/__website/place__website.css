@@ -11,7 +11,7 @@
   }
   @media (max-width: 425px) {
     .place__website {
-      display: none;
+      margin: 0 16px;
   
     }
   }
